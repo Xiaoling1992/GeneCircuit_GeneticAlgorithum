@@ -7,8 +7,8 @@ How to initiate the project?
 2. Change the parameters of Genetic Algorithm:
    In GenAlgo_JX2Loop.m, change parameters as you need.
    modules=[4];  %number of modules in the gene circuit.
-   maxGen = 100;
-   popuSize = 100;   
+   maxGen = 100;  %Maximum iteration times.
+   popuSize = 100;  %Size of the population
    mutationRate = 0.1; % rate of a mutation to occur on a certain spot in 'chromosome'
   thresDel = 0.7; %0.7 30% of population with a low fitness score is removed
   thresFit = 0.3; % 0.3 30% of population is best fit
