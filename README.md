@@ -14,10 +14,10 @@ How to initiate the project?
    
    mutationRate = 0.1; % rate of a mutation to occur on a certain spot in 'chromosome'
    
-  thresDel = 0.7; %0.7 30% of population with a low fitness score is removed
+   thresDel = 0.7; %0.7 30% of population with a low fitness score is removed
   
-  thresFit = 0.3; % 0.3 30% of population is best fit
+   thresFit = 0.3; % 0.3 30% of population is best fit
   
-   presMut = 0.1; % 10% of population is mutated
+    presMut = 0.1; % 10% of population is mutated
    
-   presCross = 0.7; % 0.7 change of a crossover to happen in the best fit population, keep random?
+    presCross = 0.7; % 0.7 change of a crossover to happen in the best fit population, keep random?
